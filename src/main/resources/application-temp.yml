@@ -1,0 +1,7 @@
+server:
+    port: 9090
+
+agan:
+  number: ${random.int}
+  hi: hi
+  msg: hello1+${agan.hi}+${agan.number}
